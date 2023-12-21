@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;600;700&family=Roboto+Condensed:wght@300;400&display=swap');
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('/fonts/OpenDyslexic-Regular.otf') format("opentype"),
+  url('/fonts/OpenDyslexic-Regular.woff') format("woff")
+  url('/fonts/OpenDyslexic-Regular.woff2') format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('/fonts/OpenDyslexic-Bold.otf') format("opentype"),
+        url('/fonts/OpenDyslexic-Bold.woff') format("woff")
+        url('/fonts/OpenDyslexic-Bold.woff2') format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('/fonts/OpenDyslexic-Italic.otf') format("opentype"),
+  url('/fonts/OpenDyslexic-Italic-Bold.woff') format("woff")
+  url('/fonts/OpenDyslexic-Italic-Bold.woff2') format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('/fonts/OpenDyslexic-Bold-Italic.otf') format("opentype"),
+  url('/fonts//OpenDyslexic-Bold-Italic-Bold.woff') format("woff")
+  url('/fonts//OpenDyslexic-Bold-Italic-Bold.woff2') format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('/fonts/OpenDyslexic-Bold-Italic.otf') format("opentype"),
+  url('/fonts//OpenDyslexic-Bold-Italic-Bold.woff') format("woff")
+  url('/fonts//OpenDyslexic-Bold-Italic-Bold.woff2') format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ArialNarrow';
+  src: url('/fonts/ARIALN.TTF') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RobotoCondenced';
+  src: url('/fonts/RobotoCondensed-Regular.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
